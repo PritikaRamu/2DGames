@@ -1,0 +1,19 @@
+body
+{
+  background-color: gray;
+  color: white;
+}
+#score
+{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+#block
+{
+  margin-left: 510px;
+}
+#canvas
+{
+  background-color: pink;
+}
