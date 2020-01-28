@@ -1,0 +1,23 @@
+body
+{
+  background-color:#030025;
+}
+#head
+{
+  color: white;
+  font-family:courier;
+  font-size: 65px;
+}
+#canvas
+{
+  background-color: black;
+  cursor:pointer;
+}
+#player
+{
+  font-size: 25px;
+  font-family: courier;
+  margin-left: 135px;
+  font-weight: bolder;
+  color:white;
+}
