@@ -1,0 +1,81 @@
+body
+{
+  background-color: black;
+}
+#paddle1
+{
+   position:absolute;
+   left:10px;
+   top:400px;
+   width:20px;
+   height:150px;
+   border-radius: 25px;
+   background-color: white;
+}
+#paddle2
+{
+   position:absolute;
+   right:10px;
+   top:400px;
+   width:20px;
+   height:150px;
+   border-radius: 25px;
+   background-color: white;
+}
+#ball
+{
+   position:absolute;
+   left:800px;
+   top:475px;
+   width:25px;
+   height:25px;
+   background-color:white;
+   border-radius:50%;
+   box-shadow: 0px 0px 20px 0px #ffffff;
+}
+#net
+{
+  border-left: 6px dashed white;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 150px;
+}
+.header
+{
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  width: 125px;
+  height:25px;
+  text-align: center;
+  border-radius: 20px;
+  font-family: courier;
+  font-weight: bold;
+}
+.player
+{
+  color: white;
+  background-color: black;
+  font-family: : courier;
+}
+#scorecard1
+{
+  position: absolute;
+  top:0px;
+  left:10px;
+  text-align: center;
+  box-shadow: 0px 0px 50px 0px #ffffff;
+  border-radius: 20px;
+
+}
+#scorecard2
+{
+  position: absolute;
+  top: 0px;
+  right:10px;
+  text-align: center;
+  box-shadow: 0px 0px 50px 0px #ffffff;
+  border-radius: 20px;
+}
